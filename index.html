@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizzorino</title>
+    <link rel="icon" href="./Pizza HSR (Chronoupizza).webp" />
+    <!-- Lien vers le fichier CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Barre de navigation avec logo -->
+    <header>
+      <div class="logo">
+        <image
+          src="./Pizza HSR (Chronoupizza).webp"
+          alt="une pizza en forme d’horloge"></image>
+      </div>
+      <h1>Pizzorino</h1>
+      <nav>
+        <ul class="navbar">
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#about">À propos de nous</a></li>
+          <li><a href="#recipes">Recettes</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- First Section: Presentation of the Shop, with a picture and some text -->
+    <section id="home">
+      <h2>Bienvenue à Pizzorino</h2>
+      <p>"Le meilleur de la pizza au feu de bois, avec une touche d’audace!"</p>
+      <img src="./Pizzeria.jpg" alt="Pizzorino Shop" style="width: 50%" />
+    </section>
+
+    <!-- Second Section: About Pizzorino  and Recipes for Krabby Pizzas-->
+    <section id="about">
+      <h2>À propos de Pizzorino</h2>
+      <p>Chez Pizzorino, nous fusionnons tradition et innovation pour vous
+        offrir des pizzas au feu de bois comme vous n'en avez jamais savourées.
+        Chaque pizza est bien plus qu’un simple plat : c'est une véritable
+        création culinaire, élaborée avec des ingrédients frais et
+        méticuleusement sélectionnés. Nos recettes uniques, nées de notre
+        passion pour l'authenticité et la créativité, vous invitent à explorer
+        des saveurs inédites, conçues pour surprendre et ravir vos papilles.
+        <br />
+        Mais l'expérience Pizzorino ne s'arrête pas là ! Notre personnel dévoué
+        et passionné s'engage à créer une ambiance chaleureuse et conviviale, où
+        chaque client se sent chez lui. Ensemble, nous célébrons l'art de la
+        pizza dans un cadre contemporain, où le savoir-faire ancestral s'allie à
+        la modernité. Vivez des moments inoubliables chez Pizzorino, où chaque
+        bouchée et chaque sourire contribuent à une expérience culinaire
+        exceptionnelle.
+      </p>
+
+      <img src="./staff.jpg" alt="Pizzorino Staff" style="width: 50%" />
+
+      <!-- Div for pizza recipes -->
+      <div id="Pizza">
+        <h2>Nos pizzas signatures</h2>
+        <div class="pizza-box">
+          <h3>Pizza Krabby Tropicale</h3>
+          <p>
+            <b>Ingrédients:</b> crabe, mangue fraîche, avocat, sauce épicée à la
+            noix de coco, coriandre et fromage de chèvre. <br />
+            <i
+              >Une explosion de saveurs sucrées et salées, inspirée par des
+              saveurs tropicales inattendues.</i
+            >
+          </p>
+        </div>
+        <div class="pizza-box">
+          <h3>Pizza Terroir Marin</h3>
+          <p>
+            <b>Ingrédients:</b> crabe, truffes noires, miel, roquette, copeaux
+            de parmesan, et une touche de jus de citron.<br />
+            <i
+              >L'alliance audacieuse du luxe des truffes avec la fraîcheur du
+              crabe, relevée par une douceur sucrée.</i
+            >
+          </p>
+        </div>
+        <div class="pizza-box">
+          <h3>Pizza Fusion Krabby Thaï</h3>
+          <p>
+            <b>Ingrédients:</b> crabe, sauce à la cacahuète, basilic thaï,
+            nouilles de riz croustillantes, carottes marinées, et sauce soja
+            sucrée.<br />
+            <i
+              >Une pizza à l'esprit asiatique qui réunit la richesse du crabe
+              avec des notes croustillantes et des saveurs épicées.</i
+            >
+          </p>
+        </div>
+        <div class="pizza-box">
+          <h3>Pizzorino Douceur d'Automne</h3>
+          <p>
+            <b>Ingrédients:</b> crabe, potiron rôti, noix caramélisées, crème de
+            marrons, et une pincée de cannelle.<br />
+            <i
+              >Une pizza surprenante qui marie des ingrédients automnaux avec la
+              délicatesse du crabe pour un résultat doux et réconfortant.</i
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Third Section: Contact Form -->
+    <section id="contact">
+      <h2>Contact Pizzorino</h2>
+      <form>
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="phone">Numéro de téléphone:</label>
+        <input type="tel" id="phone" name="phone" required />
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p><strong>&copy; 2024, Pizzorino. Tous droits réservés.</strong></p>
+      <p>
+        Suivez-nous sur:
+        <a href="https://facebook.com/pizzorino">Facebook</a> |
+        <a href="https://twitter.com/pizzorino">Twitter</a> |
+        <a href="https://instagram.com/pizzorino">Instagram</a>
+      </p>
+      <p>Téléphone: +213 X XX XX XX XX</p>
+    </footer>
+  </body>
+</html>
