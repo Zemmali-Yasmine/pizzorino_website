@@ -1,0 +1,154 @@
+/* Importer la police Montserrat de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Appliquer Montserrat à toute la page */
+body {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles pour l'en-tête */
+header {
+  background-color: #333; /* Couleur semi-sombre */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.logo img {
+  width: 50px; /* Ajustement de la taille du logo */
+  border-radius: 50%;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 24px;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #ffa500; /* Couleur orangée au survol */
+}
+
+/* Styles pour les sections */
+section {
+  padding: 32px;
+  text-align: center;
+}
+
+/* Couleurs d'arrière-plan alternées pour les sections */
+#home {
+  background-color: #f5f5f5; /* Couleur claire */
+}
+
+#about {
+  background-color: #e0e0e0; /* Couleur légèrement plus sombre */
+}
+
+#contact {
+    background-color: #f1f1f0; /* Couleur se confondant avec la 1er */
+}
+
+/* Images */
+img {
+  width: 80%;
+  max-width: 400px;
+  border: 2px solid #ddd;
+  border-radius: 10px; /* Bords arrondis */
+}
+
+/* Formulaire */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+  margin: auto;
+}
+
+input[type="text"],
+input[type="tel"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff8c00; /* Couleur orangée */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  background-color: #e07b00; /* Couleur légèrement plus foncée au survol */
+}
+
+/* Pied de page */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 32px;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 8px 0;
+}
+
+footer a {
+  color: #ffa500;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p:nth-child(2) {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer p:last-child {
+  font-style: italic;
+}
+
+/* Ajustements pour les petits écrans */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
